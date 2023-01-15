@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.f-1{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.f-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 220px;
+    list-style: none;
+    padding: 0 5px;
+}
+
+nav li:hover{
+    background-color: lightgray;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.f-3{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.f-4{
+    text-align: center;
+    margin-top: 90px;
+}
+.btn-primary{
+    background: #FF900E;
+    border-radius: 12px;
+    width: 150px;
+    height: 54px;
+    color: white;
+    border: 0;
+    margin-top: 30px;
+}
+
+
+
+
+section, img{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.s-1{
+      display: flex;
+      gap: 40px;
+      align-items:  center;
+      margin-left: 290px;
+}
+
+.photo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+.s-2{
+    color: #727272;
+}
+.s-3{
+    color: #131313;
+}
+.s-3{
+    color: #FF900E;
+}
+
+.step-2 p{
+    color: #727272;
+}
+.t-2{
+    text-align: left;
+    padding: 200px;
+    gap: 400px;
+    
+   
+}
+.t-2 div{
+    padding: 50px;
+}
+
+.banner{
+    display: flex;
+    text-align: center;
+    background-image: url(images/architect.png) ;
+    background-repeat: no-repeat;
+    background-position: calc(90%);
+}
+
+.btn-primary-2{
+    
+    margin-top: 1100px;
+    background: #FF900E;
+    border-radius: 12px;
+    width: 342px;
+    height: 200px;
+    border: 0;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font: bolder;
+}
+
+.sp{
+    font-size: 20px;
+}
+
+.t-1 p{
+    color: #727272;
+}
+.t-1 h1{
+    font-size: 35px;
+    font-style: normal;
+}
+
+.h-1{
+    margin-left: 170px;
+}
+
+.six-1{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+ 
+
+}
+
+.six{
+    border: 3px solid #FF900E;
+    border-radius: 12px;
+    padding: 0 3px;
+    width: 200px;
+    height: 200px;
+    animation: sliding 5s ease-in-out 0.5s 10;
+    animation-play-state: running;
+    gap: 10px;
+}
+
+@keyframes sliding {
+    form{
+         border-color: #FF900E;
+         background-color: #adacaa;
+    }
+    to{
+        border-color: #727272;
+    }
+}
+
+.l{
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.logo{
+    text-align: center;
+   
+}
+
+.logo img{
+    padding: 60px;
+}
+
+.footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 40px;
+    width: 1440px;
+    margin-left: 320px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.f-4 p{
+    color: #727272;
+}
+
+p{
+    color: #727272;
+}
